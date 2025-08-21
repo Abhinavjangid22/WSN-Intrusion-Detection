@@ -50,12 +50,14 @@ WSN-Intrusion-Detection/
 5. **Evaluation:** Prints Accuracy, Classification Report, and plots Confusion Matrix for Random Forest.
 
 ## 🚀 How to Run
-
+```bash
 # 1. Clone the repository
+
 git clone https://github.com/Abhinavjangid22/WSN-Intrusion-Detection.git
 cd WSN-Intrusion-Detection
 
 # 2. Install dependencies
+
 pip install -r requirements.txt
 
 # 3. Place NSL-KDD dataset files in data/ folder
@@ -87,13 +89,4 @@ python wsn_ids.py
 # - NSL-KDD Dataset
 # - Scikit-learn documentation: https://scikit-learn.org
 # - XGBoost documentation: https://xgboost.readthedocs.io
-
-
-
-
-
-
-
-
-##Install dependencies:
-2. **pip install -r requirements.txt**
+uirements.txt**
