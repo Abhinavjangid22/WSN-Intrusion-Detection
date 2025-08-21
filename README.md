@@ -68,41 +68,51 @@ WSN-Intrusion-Detection/
 git clone https://github.com/yourusername/WSN-Intrusion-Detection.git
 cd WSN-Intrusion-Detection
 
-2. Install dependencies:
+### 2. Install Dependencies
 
+**Run the following command to install all required packages:**
+
+```bash
 pip install -r requirements.txt
 
-3. Place NSL-KDD dataset files in data/ folder:
+
+3. Place NSL-KDD Dataset Files in data/ Folder
+
+Required files:
 
 KDDTrain+.TXT
 
 KDDTest+.TXT
 
-4. Run the script:
+4. Run the Script
+
+Execute the main Python script:
 
 python wsn_ids.py
 
-5. Check console output for Accuracy, F1-score, and Confusion Matrix plot.
+5. Check Console Output
 
-📊 Sample Output
+You should see:
 
-=== Random Forest Results ===
+Accuracy
+
+Weighted F1-score
+
+Confusion Matrix plotted
+
+📊 Sample Output:=== Random Forest Results ===
 Accuracy: 0.63
 Weighted F1-score: 0.58
 
-Classification report for all attack classes printed.
-Confusion matrix plotted.
-
-
 7. ⚡ Future Improvements
 
-Apply SMOTE or other oversampling methods to balance minority attack classes.
+Apply SMOTE or other oversampling methods to balance minority attack classes
 
-Use Deep Learning models (e.g., LSTM, CNN) for better detection.
+Use Deep Learning models (e.g., LSTM, CNN) for better detection
 
-Hyperparameter tuning via GridSearchCV / RandomizedSearchCV.
+Hyperparameter tuning via GridSearchCV / RandomizedSearchCV
 
-Real-time WSN intrusion detection using streaming network data.
+Real-time WSN intrusion detection using streaming network data
 
 8. 📜 References
 
