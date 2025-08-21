@@ -89,4 +89,4 @@ python wsn_ids.py
 # - NSL-KDD Dataset
 # - Scikit-learn documentation: https://scikit-learn.org
 # - XGBoost documentation: https://xgboost.readthedocs.io
-uirements.txt**
+
